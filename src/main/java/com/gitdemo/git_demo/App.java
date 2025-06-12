@@ -6,7 +6,7 @@ package com.gitdemo.git_demo;
 public class App {
 	  
 	public void addData(String data) {
-		if(data.equals("nick")) {
+		if(data.equals(Constant.Data_Type)) {
 			System.out.println("Welcome Nick");
 		}
 		System.out.println("data = "+data);
